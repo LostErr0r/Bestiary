@@ -7,3 +7,12 @@ https://viewdns.info/reverseip/ ревёрс по IP
 
 sudo apt install dirbuster
 dirbuster словари для dirbuster /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
+
+
+gobuster
+gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 400 -x php,html,txt,json
+Здесь -u – URL или IP-адрес сайта, -w – словарь, -t – количество потоков, -x – расширения файлов и -s – ответы сервера, которые будут отображаться.
+
+перебор файлов 
+
+/usr/share/wordlists/dirbuster/ где лежат переборы
