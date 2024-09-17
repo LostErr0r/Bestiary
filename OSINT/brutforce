@@ -8,8 +8,8 @@
 /SecLists-master/Discovery/Web-Content/burp-parameter-names.txt
 /SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
 Имена пользователей или логины:
-/SecLists-master/Usernames/top-usernames-shortlist.txt
-/SecLists-master/Usernames/Names/names.txt
+https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
+https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/names.txt
 
 
 
