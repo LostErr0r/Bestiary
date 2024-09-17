@@ -1,0 +1,22 @@
+чтобы брутфорсить нужно иметь приложение burp suite
+
+ссылка на репозиторий всех словарей 
+
+Директории и файлы:
+/SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
+Имена параметров:
+/SecLists-master/Discovery/Web-Content/burp-parameter-names.txt
+/SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
+Имена пользователей или логины:
+/SecLists-master/Usernames/top-usernames-shortlist.txt
+/SecLists-master/Usernames/Names/names.txt
+
+
+
+
+
+выбирать для подбора паролей в этой последовательности
+https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10000.txt
+https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-100000.txt
+https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/directory-list-2.3-medium.txt
+https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-1000000.txt
