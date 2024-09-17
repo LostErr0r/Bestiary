@@ -17,3 +17,7 @@ gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/di
 перебор файлов 
 
 /usr/share/wordlists/dirbuster/ где лежат переборы
+
+
+Чтобы зафазить id сайта можно сделать так 
+htt://[адрес:порт]/?id= и тут произвольное число
