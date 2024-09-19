@@ -11,7 +11,9 @@ dirbuster словари для dirbuster /usr/share/wordlists/dirbuster/directo
 
 
 gobuster
-gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 400 -x php,html,txt,json
+gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 400 -x php,html,txt,zip
+
+.txt, .php, .html, .zip
 Здесь -u – URL или IP-адрес сайта, -w – словарь, -t – количество потоков, -x – расширения файлов и -s – ответы сервера, которые будут отображаться.
 
 перебор файлов 
