@@ -1,4 +1,4 @@
-**FAZZING ЧЕРЕЗ ИНЕТ
+###FAZZING ЧЕРЕЗ ИНЕТ
 - https://viewdns.info/iphistory/ История IP                                                                                                                                                  
 - https://myip.ms/browse/sites_history/ сёрч по ip                                                                                                                                           
 - https://viewdns.info/reverseip/ ревёрс по IP                                                                                                                                               
