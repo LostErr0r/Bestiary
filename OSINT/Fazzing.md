@@ -3,9 +3,8 @@
 
 - https://viewdns.info/iphistory/ История IP                                                                                                                                                  
 - https://myip.ms/browse/sites_history/ сёрч по ip                                                                                                                                           
-- https://viewdns.info/reverseip/ ревёрс по IP                                                                                                                                               
-__
-
+- https://viewdns.info/reverseip/ ревёрс по IP
+###
                                                                                                                                                                                                 
 ## sudo apt install dirbuster                                                                                                                                                                        
 dirbuster словари для dirbuster /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt                                                                                          
