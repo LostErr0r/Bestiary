@@ -1,20 +1,19 @@
-________________________________________________________________________________________________________________________________________________________________________________________________
-|                                                                                                                                                                                               |
-|   https://viewdns.info/iphistory/ История IP                                                                                                                                                  |
-|    https://myip.ms/browse/sites_history/ сёрч по ip                                                                                                                                           |
-|    https://viewdns.info/reverseip/ ревёрс по IP                                                                                                                                               |
-|                                                                                                                                                                                               |
-|_______________________________________________________________________________________________________________________________________________________________________________________________|
-                                                                                                                                                                                                |  
-sudo apt install dirbuster                                                                                                                                                                      |  
-dirbuster словари для dirbuster /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt                                                                                          |
-                                                                                                                                                                                                |
-                                                                                                                                                                                                |
-gobuster предназначен много для чего, но мы делаем перебор директорий, достаточно быстро выполняется запрос get                                                                                 |
-gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 400 -x php,html,txt,zip                                                          |
-                                                                                                                                                                                                |
-.txt, .php, .html, .zip                                                                                                                                                                         |
-Здесь -u – URL или IP-адрес сайта, -w – словарь, -t – количество потоков, -x – расширения файлов и -s – ответы сервера, которые будут отображаться.                                             |
+**FAZZING ЧЕРЕЗ ИНЕТ
+- https://viewdns.info/iphistory/ История IP                                                                                                                                                  
+- https://myip.ms/browse/sites_history/ сёрч по ip                                                                                                                                           
+- https://viewdns.info/reverseip/ ревёрс по IP                                                                                                                                               
+
+
+                                                                                                                                                                                                
+sudo apt install dirbuster                                                                                                                                                                        
+dirbuster словари для dirbuster /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt                                                                                          
+                                                                                                                                                                                                
+                                                                                                                                                                                                
+gobuster предназначен много для чего, но мы делаем перебор директорий, достаточно быстро выполняется запрос get                                                                                 
+gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 400 -x php,html,txt,zip                                                          
+                                                                                                                                                                                                
+.txt, .php, .html, .zip                                                                                                                                                                         
+Здесь -u – URL или IP-адрес сайта, -w – словарь, -t – количество потоков, -x – расширения файлов и -s – ответы сервера, которые будут отображаться.                                             
 перебор файлов 
 
 
@@ -23,13 +22,12 @@ gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/di
 
 Можно сделать перебор паролей вот так тоже через ffuf, так же краткий экскурс по ffuf https://cisoclub.ru/rukovodstvo-po-fuzz-faster-u-fool-ffuf/
 ffuf -u "http://172.23.118.28" -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "login=admin&passwd=WFUZZ" -w /usr/share/wordlists/rockyou.txt:WFUZZ -c -fs 14 -t 500 -mc 302 -H "HOST: localhost"
-                                                                                                                                                                                                |
-/usr/share/wordlists/dirbuster/ где лежат переборы                                                                                                                                              |
-                                                                                                                                                                                                |
-                                                                                                                                                                                                |
-Чтобы зафазить id сайта можно сделать так                                                                                                                                                       |
-htt://[адрес:порт]/?id= и тут произвольное число                                                                                                                                                |
-________________________________________________________________________________________________________________________________________________________________________________________________
+                                                                                                                                                                                                
+/usr/share/wordlists/dirbuster/ где лежат переборы                                                                                                                                              
+                                                                                                                                                                                                
+                                                                                                                                                                                              
+Чтобы зафазить id сайта можно сделать так                                                                                                                                                       
+htt://[адрес:порт]/?id= и тут произвольное число                                                                                                                                                
 
 чтобы брутфорсить нужно иметь приложение burp suite
 
