@@ -44,9 +44,9 @@ https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-s
 https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/names.txt
 
 
-выбирать для подбора паролей в этой последовательности
-https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10000.txt
-https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-100000.txt
-https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/directory-list-2.3-medium.txt
-https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-1000000.txt
-так же словарь rockyou который лежит по адресу /usr/share/wordlists/rockyou.txt.tar
+### выбирать для подбора паролей в этой последовательности
+ - https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10000.txt
+ - https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-100000.txt
+ - https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/directory-list-2.3-medium.txt
+ - https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-1000000.txt
+ - так же словарь rockyou который лежит по адресу /usr/share/wordlists/rockyou.txt.tar
