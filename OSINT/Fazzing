@@ -1,16 +1,16 @@
-
+_______________________________________________________________________________________________________________________________________________________________________________________________
 
 https://viewdns.info/iphistory/ История IP
 https://myip.ms/browse/sites_history/ сёрч по ip 
 https://viewdns.info/reverseip/ ревёрс по IP
 
-
+________________________________________________________________________________________________________________________________________________________________________________________________
 
 sudo apt install dirbuster
 dirbuster словари для dirbuster /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
 
 
-gobuster
+gobuster предназначен много для чего, но мы делаем перебор директорий, достаточно быстро выполняется запрос get
 gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 400 -x php,html,txt,zip
 
 .txt, .php, .html, .zip
