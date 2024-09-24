@@ -23,3 +23,31 @@ gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/di
 
 Чтобы зафазить id сайта можно сделать так 
 htt://[адрес:порт]/?id= и тут произвольное число
+
+
+
+чтобы брутфорсить нужно иметь приложение burp suite
+
+ссылка на репозиторий всех словарей 
+
+
+
+
+Директории и файлы:
+/SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
+Имена параметров:
+/SecLists-master/Discovery/Web-Content/burp-parameter-names.txt
+/SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
+Имена пользователей или логины:
+https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
+https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/names.txt
+
+
+
+
+
+выбирать для подбора паролей в этой последовательности
+https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10000.txt
+https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-100000.txt
+https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/directory-list-2.3-medium.txt
+https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-1000000.txt
