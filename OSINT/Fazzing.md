@@ -50,3 +50,10 @@ https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/names.txt
  - https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/directory-list-2.3-medium.txt
  - https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-1000000.txt
  - так же словарь rockyou который лежит по адресу /usr/share/wordlists/rockyou.txt.tar
+
+
+
+
+
+
+https://github.com/Madhava-mng/RockYou.txt/blob/main/rockyou.txt.zip
