@@ -7,7 +7,7 @@
 
 
                                                                                                                                                                                                 
-sudo apt install dirbuster                                                                                                                                                                        
+## sudo apt install dirbuster                                                                                                                                                                        
 dirbuster словари для dirbuster /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt                                                                                          
                                                                                                                                                                                                 
                                                                                                                                                                                                 
