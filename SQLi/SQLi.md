@@ -1,7 +1,6 @@
 ### SQL Injection Payload List
-<p align="center"> 
-  src="/payloads/SQLi/"
-</p>
+
+ *[PAYLOADS](https://github.com/PrimeJedi/Bestiary/tree/main/payloads/SQLi)
 
 <p align="center"> 
 <img src="/img/common-sql-injection-attacks.png">
