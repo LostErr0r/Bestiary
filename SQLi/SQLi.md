@@ -1,4 +1,7 @@
 ### SQL Injection Payload List
+<p align="center"> 
+  src="/payloads/SQLi/"
+</p>
 
 <p align="center"> 
 <img src="/img/common-sql-injection-attacks.png">
