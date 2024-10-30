@@ -51,7 +51,7 @@ SQL-инъекция — это уязвимость веб-безопаснос
 * [Blisqy](https://github.com/JohnTroony/Blisqy) – использование слепой SQL-инъекции на основе времени в HTTP-заголовки (MySQL/MariaDB)
 
 #### Ссылки: 
-
+* all sql: https://sqlwiki.netspi.com/injectionTechniques/#mysql
 * Шпаргалка по SQL инъекциям: https://defcon.ru/web-security/2784/
 * PT SQL Injection от А до Я: https://www.ptsecurity.com/upload/corporate/ru-ru/analytics/PT-devteev-Advanced-SQL-Injection.pdf
 * SQL-инъекция (OWASP): https://www.owasp.org/index.php/SQL_Injection
