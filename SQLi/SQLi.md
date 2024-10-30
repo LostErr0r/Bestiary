@@ -1,5 +1,8 @@
 ### SQL Injection Payload List
 
+<p align="center"> 
+<img src="/img/common-sql-injection-attacks.png">
+</p>
 
 #### SQL Injection
 
