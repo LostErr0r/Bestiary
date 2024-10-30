@@ -50,6 +50,7 @@ SQL-инъекция — это уязвимость веб-безопаснос
 
 #### Ссылки: 
 
+* PT SQL Injection от А до Я: https://www.ptsecurity.com/upload/corporate/ru-ru/analytics/PT-devteev-Advanced-SQL-Injection.pdf
 * SQL-инъекция (OWASP): https://www.owasp.org/index.php/SQL_Injection
 * Слепая SQL-инъекция: https://www.owasp.org/index.php/Blind_SQL_Injection
 * Тестирование на SQL-инъекцию (OTG-INPVAL-005): https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)
