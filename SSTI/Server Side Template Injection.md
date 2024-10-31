@@ -34,6 +34,18 @@ ${{5*6}}
 
 #### Идентификация
 
+${5*6}-->a{*comment*}b-->Smarty
+
+		Smarty
+a{*comment*}b				Mako
+		${"z".join("ab")}
+					unknown
+
+		jinja2
+	{{5*'6'}}	Twig
+{{5*6}}		Unknown
+	нет уязвимости
+
 ```mermaid
 graph TD;
     '${5*6}'-->'a{*comment*}b';
