@@ -34,46 +34,7 @@ ${{5*6}}
 
 #### Идентификация
 
-${5*6}-->a{*comment*}b-->Smarty
-
-		Smarty
-a{*comment*}b				Mako
-		${"z".join("ab")}
-					unknown
-
-		jinja2
-	{{5*'6'}}	Twig
-{{5*6}}		Unknown
-	нет уязвимости
-
-```mermaid
-graph TD;
-    '${5*6}'-->'a{*comment*}b';
-    '${5*6}'-->'{{5*6}}';
-    'a{*comment*}b'-->'Smarty';
-    'a{*comment*}b'-->'${"z".join("ab")}';
-    '${"z".join("ab")}'-->'Mako';
-    '${"z".join("ab")}'-->'unknown';
-    '{{5*6}}'-->'{{5*6}}';
-    '{{5*6}}'-->'Нет уязвимости';
-    '{{5*6}}'-->'{{5*6}}';
-    '{{5*6}}'-->'jinja2';
-    '{{5*6}}'-->'Twig';
-```
-
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    ${5*6}-->a{*comment*}b;
-    ${5*6}-->{{5*6}};
-    a{*comment*}b-->Smarty;
-    a{*comment*}b-->${"z".join("ab")};
-    ${"z".join("ab")}-->Mako;
-    ${"z".join("ab")}-->unknown;
-    {{5*6}}-->{{5*6}};
-    {{5*6}}-->Нет уязвимости';
-    {{5*6}}-->{{5*6}};
-    {{5*6}}-->jinja2;
-    {{5*6}}-->Twig;
-```
+- ${5*6}-->a{*comment*}b-->Smarty
+- ${5*6}-->a{*comment*}b-->${"z".join("ab")}-->Mako,unknown
+- ${5*6}-->{{5*6}}-->{{5*'6'}}-->jinja2,Twig
+- ${5*6}-->{{5*6}}-->нет уязвимости
