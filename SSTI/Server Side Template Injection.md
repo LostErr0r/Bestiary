@@ -34,8 +34,7 @@ ${{5*6}}
 
 #### Идентификация
 
-![изображение](https://github.com/user-attachments/assets/eb6fc930-4d4a-4bae-9455-683fb8b2d622)
-
+![Идентификация](https://github.com/user-attachments/assets/eb6fc930-4d4a-4bae-9455-683fb8b2d622)
 
 
 
