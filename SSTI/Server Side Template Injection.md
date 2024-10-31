@@ -48,3 +48,13 @@ graph TD;
     '{{5*6}}'-->'jinja2';
     '{{5*6}}'-->'Twig';
 ```
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
