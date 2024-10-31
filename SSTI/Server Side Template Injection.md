@@ -8,19 +8,19 @@ Template Injection может возникнуть, если пользоват�
 
 |    Среда        | Описание                      
 |----------------|-------------------------------|
-|Java|Apache Velocity FreeMarker Histone  |    
-|PHP  |BH Fenom Smarty Twig TinyButStrong XTemplate Histone Separate Blade Sigma PHPTAL Facebook XHP dwoo Blitz templates | 
-|Python | Genshi Kid Jinja2 Mako |
-|Perl|Template Toolkit HTML::Template|
-|Ruby |Ruby Erubis Haml Slim Liquid |
-|JS |bem-xjst BH Handlebars Underscore pug Histone |
+|Java|Apache, Velocity, FreeMarker, Histone  |    
+|PHP  |BH, Fenom, Smarty, Twig, TinyButStrong, XTemplate, Histone, Separate, Blade, Sigma, PHPTAL, Facebook, XHP, dwoo, Blitz, templates | 
+|Python | Genshi, Kid, Jinja2, Mako |
+|Perl|Template, Toolkit, HTML::Template|
+|Ruby |Ruby, Erubis, Haml, Slim, Liquid |
+|JS |bem-xjst, BH, Handlebars, Underscore, pug, Histone |
 
 
 При тестировании веб приложения уязвимости SSTI следует
 придерживаться следующего алгоритма:
 - Обнаружение
 - Идентификация
-- Эксплуатация: Чтение -> Исследование -> Атака
+- Эксплуатация: Чтение --> Исследование --> Атака
 
  #### Обнаружение
  ```
