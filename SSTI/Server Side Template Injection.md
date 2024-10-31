@@ -2,6 +2,16 @@
 
 Шаблонизатор – это программное обеспечение, позволяющее использовать шаблоны для генерации конечных html-страниц. Другими словами, именно шаблонизатор занимается отделением представления конечного результата от исполняемого кода, который в свою очередь заполняет определенными данными шаблон 
 
+|    Среда        | Описание                      
+|----------------|-------------------------------|
+|Java|Apache Velocity FreeMarker Histone  |    
+|PHP  |BH Fenom Smarty Twig TinyButStrong XTemplate Histone Separate Blade Sigma PHPTAL Facebook XHP dwoo Blitz templates | 
+|Python | Genshi Kid Jinja2 Mako |
+|Perl|Template Toolkit HTML::Template|
+|Ruby |Ruby Erubis Haml Slim Liquid |
+|JS |bem-xjst BH Handlebars Underscore pug Histone |
+
+
 
 
 
