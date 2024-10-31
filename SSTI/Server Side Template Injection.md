@@ -36,7 +36,13 @@ ${{5*6}}
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    ${5*6}-->a{*comment*}b;
+    ${5*6}-->{{5*6}};
+    a{*comment*}b-->Smarty;
+    a{*comment*}b-->${"z".join("ab")};
+    ${"z".join("ab")}-->Mako;
+    ${"z".join("ab")}-->unknown;
+    {{5*6}}-->{{5*'6'}};
+    {{5*'6'}}-->jinja2;
+    {{5*'6'}}-->Twig;
+    {{5*6}}-->Нет уязвимости;
