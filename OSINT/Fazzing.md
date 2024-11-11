@@ -36,13 +36,13 @@ htt://[адрес:порт]/?id= и тут произвольное число
 ссылка на репозиторий всех словарей 
 
 Директории и файлы:
-/SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
+- /SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
 Имена параметров:
-/SecLists-master/Discovery/Web-Content/burp-parameter-names.txt
-/SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
+- /SecLists-master/Discovery/Web-Content/burp-parameter-names.txt
+- /SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
 Имена пользователей или логины:
-https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
-https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/names.txt
+- https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
+- https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/names.txt
 
 
 ### выбирать для подбора паролей в этой последовательности
