@@ -1,7 +1,7 @@
 
 # SQL Injection
 
-В этом разделе собраны [пэйлоуды](https://github.com/PrimeJedi/Bestiary/tree/main/payloads/SQLi), описание некоторых распространенных разновидностей инъекций, и инструменты тестирования.
+В этом разделе собраны [пэйлоуды](https://github.com/PrimeJedi/Bestiary/tree/main/payloads/SQLi), описание некоторых распространенных разновидностей инъекций и инструменты тестирования.
 
 |    Тип SQL-инъекции        | Описание                      
 |----------------|-------------------------------|
@@ -30,3 +30,6 @@
 * Тестирование на внедрение NoSQL: https://www.owasp.org/index.php/Testing_for_NoSQL_injection
 * Памятка по предотвращению SQL-инъекций : https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
 * Памятка по параметризации SQL-запросов : https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html
+
+#### Практика:
+#[portswigger](https://portswigger.net/web-security/sql-injection) - площадка для изучения и практики
