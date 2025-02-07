@@ -1,0 +1,4 @@
+[SQLi](
+[XXE](
+[CMDI](
+[SSTI](
