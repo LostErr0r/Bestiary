@@ -1,4 +1,8 @@
-&nbsp;&nbsp;&nbsp;&nbsp; ### SQL Injection Payload List
+<center>
+
+### SQL Injection Payload List
+
+</center>
 В этом разделе собраны [пэйлоуды](https://github.com/PrimeJedi/Bestiary/tree/main/payloads/SQLi), описание некоторых распространенных разновидностей инъекций, инструменты тестирования.
 
 |    Тип SQL-инъекции        | Описание                      
