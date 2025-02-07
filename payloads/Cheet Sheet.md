@@ -1,5 +1,5 @@
 My SQL    
-
+|Команда|Код|
 |----------------|-------------------------------|
 |Коментарии  | #<br>/*<br>-- -<br>;%00|   
 |Получение версии | SELECT VERSION();<br>SELECT @@VERSION;<br>SELECT @@GLOBAL.VERSION;|   
