@@ -32,24 +32,6 @@ SQL-инъекция — это уязвимость веб-безопаснос
 
 * [SQLMap](https://github.com/sqlmapproject/sqlmap) – инструмент автоматического внедрения SQL и захвата базы данных 
 
-* [jSQL Injection](https://github.com/ron190/jsql-injection) –  Java-инструмент для автоматического внедрения SQL в базу данных 
-
-* [BBQSQL](https://github.com/Neohapsis/bbqsql) – инструмент для слепой SQL-инъекции 
-
-* [NoSQLMap](https://github.com/codingo/NoSQLMap) – автоматизированное создание базы данных NoSQL 
-
-* [Whitewidow](https://www.kitploit.com/2017/05/whitewidow-sql-vulnerability-scanner.html) – сканер уязвимостей SQL 
-
-* [DSSS](https://github.com/stamparm/DSSS) – чертовски маленький SQLi-сканер 
-
-* [explo](https://github.com/dtag-dev-sec/explo) – формат тестирования веб-уязвимостей, читаемый человеком и машиной 
-
-* [Blind-Sql-Bitshifting](https://github.com/awnumar/blind-sql-bitshifting) – Слепая SQL-инъекция посредством Bitshifting 
-
-* [Leviathan](https://github.com/leviathan-framework/leviathan) – широкий спектр инструментов массового аудита 
-
-* [Blisqy](https://github.com/JohnTroony/Blisqy) – использование слепой SQL-инъекции на основе времени в HTTP-заголовки (MySQL/MariaDB)
-
 #### Ссылки: 
 * all sql: https://sqlwiki.netspi.com/injectionTechniques/#mysql
 * Шпаргалка по SQL инъекциям: https://defcon.ru/web-security/2784/
