@@ -1,7 +1,7 @@
-> SQL Injection Payload:
+SQL Injection Payload:
 > ```sql
 > SELECT * FROM users WHERE username = 'admin' --';
-> `
+> 
 
 
 
