@@ -146,6 +146,7 @@ _import__('os').popen('id').read()")}}
 
 
 ### Ссылки
+- https://www.blackhat.com/docs/us-15/materials/us-15-Kettle-Server-Side-Template-Injection-RCE-For-The-Modern-Web-App-wp.pdf
 - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md#jinja2
 - https://pequalsnp-team.github.io/cheatsheet/flask-jinja2-ssti
 - https://book.hacktricks.xyz/todo/references
