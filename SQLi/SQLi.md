@@ -21,12 +21,8 @@
 #### Ссылки: 
 * all sql: https://sqlwiki.netspi.com/injectionTechniques/#mysql
 * Шпаргалка по SQL инъекциям: https://defcon.ru/web-security/2784/
-* SQL-инъекция (OWASP): https://www.owasp.org/index.php/SQL_Injection
-* Слепая SQL-инъекция: https://www.owasp.org/index.php/Blind_SQL_Injection
-* Тестирование на SQL-инъекцию (OTG-INPVAL-005): https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)
 * SQL-инъекция в обход WAF: https://www.owasp.org/index.php/SQL_Injection_Bypassing_WAF
 * Проверка кода для SQL-инъекции: https://www.owasp.org/index.php/Reviewing_Code_for_SQL_Injection
-* PL/SQL: SQL-инъекция: https://www.owasp.org/index.php/PL/SQL:SQL_Injection
 * Тестирование на внедрение NoSQL: https://www.owasp.org/index.php/Testing_for_NoSQL_injection
 * Памятка по предотвращению SQL-инъекций : https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
 * Памятка по параметризации SQL-запросов : https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html
