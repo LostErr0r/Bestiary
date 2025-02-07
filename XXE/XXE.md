@@ -1,4 +1,6 @@
+## XXE
 
+[Cheat Sheet](https://github.com/LostErr0r/Bestiary/blob/main/payloads/XXE%20/Cheat%20sheet%20XXE.md)
 
 
 #### Ссылки
