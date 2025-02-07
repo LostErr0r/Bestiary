@@ -76,7 +76,7 @@ __globals__ Ссылка на словарь, содержащий глобал�
 ```
 
 ## [!Все payloads](https://github.com/LostErr0r/Bestiary/tree/main/payloads/SSTI)
-____________________________________
+
 # Cheet shet
 ### Jinja2
 
