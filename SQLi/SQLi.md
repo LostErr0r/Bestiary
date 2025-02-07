@@ -28,4 +28,4 @@
 * Памятка по параметризации SQL-запросов : https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html
 
 #### Практика:
-#[portswigger](https://portswigger.net/web-security/sql-injection) - площадка для изучения и практики
+# [portswigger](https://portswigger.net/web-security/sql-injection) - площадка для изучения и практики
