@@ -1,5 +1,5 @@
 SQL Injection Payload:
-> ```sql
+> ```bash
 > SELECT * FROM users WHERE username = 'admin' --';
 
 
