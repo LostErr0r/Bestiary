@@ -223,11 +223,12 @@ powershell C:\*\*2\n??e*d.*? # notepad
   user    0m0.000s
   sys 0m0.000s
   ```
+  
 ## Инструменты
 
 * commixproject/commix — автоматизированный универсальный инструмент для внедрения и использования команд ОС.
-* projectdiscovery/interactsh — серверная и клиентская библиотека, собирающая взаимодействие OOB.
 
 Ссылки
-
+* [Внедрение и эксплуатация](https://hackware.ru/?p=1133)
+* [portswigger](https://portswigger.net/web-security/all-labs#os-command-injection)
 
